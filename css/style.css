@@ -1,0 +1,78 @@
+body {
+min-width: 1180;
+margin: 0;
+padding: 0;
+font-family: "Roboto", Arial, sans-serif;
+font-size: 16px;
+line-height: 24px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	padding-left: 140px;
+	padding-top: 49px;
+	width: 160px;
+	height: 66px; 
+}
+
+nav { 
+	background-color: #EEEEEE;
+	margin: 0
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.main-navigation {
+font-weight: 500;
+text-transform: uppercase;
+}
+
+.tagline {
+background-color: #EEEEEE;
+margin: 0;
+font-size: 55px;
+line-height: 55px;
+list-style: none;
+}
+
+
+
+p {
+	font-size: 16px;
+}
+}
+
+.site-navigation {
+	list-style: none;
+}
+.sale {
+	
+}
+.services {
+	
+}
+
+.filter {
+font-weight: bold;
+font-size: 18px;
+}
+
+.sort {
+	font-size: 14px;
+}
+
+.friends {
+font-size: 36px;
+line-height: 0px
+}
+
+.social-network {
+list-style: none;
+}
+
