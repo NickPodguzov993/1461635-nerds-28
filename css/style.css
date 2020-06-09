@@ -55,7 +55,7 @@ p {
 	
 }
 .services {
-	
+	display: inline-flex;
 }
 
 .filter {
@@ -75,4 +75,6 @@ line-height: 0px
 .social-network {
 list-style: none;
 }
-
+h1{
+	display: none
+}
