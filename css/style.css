@@ -7,6 +7,20 @@ font-size: 16px;
 line-height: 24px;
 }
 
+.page{
+	height: 100%;
+}
+
+.page-body{
+min-height: 100%;
+display: grid;
+grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+.main-header {
+	margin-bottom: 9px;
+}
+
 a {
 	text-decoration: none;
 }
@@ -20,7 +34,7 @@ a {
 
 nav { 
 	background-color: #EEEEEE;
-	margin: 0
+	
 }
 
 img {
@@ -32,10 +46,12 @@ img {
 font-weight: 500;
 text-transform: uppercase;
 }
-
-.tagline {
+.slider {
 background-color: #EEEEEE;
-margin: 0;
+margin-top: 0
+}
+.slider-title {
+
 font-size: 55px;
 line-height: 55px;
 list-style: none;
@@ -46,19 +62,22 @@ list-style: none;
 p {
 	font-size: 16px;
 }
-}
 
-.site-navigation {
-	list-style: none;
-}
-.sale {
+
+
+
 	
 }
-.services {
-	display: inline-flex;
+.services-list {
+	list-style: none;
 }
 
-.filter {
+.catalog-title {
+	font-size: 55px;
+	background-color: #EEEEEE;
+}
+
+.catalog-filter-title {
 font-weight: bold;
 font-size: 18px;
 }
@@ -67,14 +86,27 @@ font-size: 18px;
 	font-size: 14px;
 }
 
-.friends {
+footer-title {
 font-size: 36px;
 line-height: 0px
 }
 
-.social-network {
+.social {
 list-style: none;
 }
-h1{
-	display: none
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.site-navigation {
+	list-style: none;
+	display: inline-flex;
+	
 }
