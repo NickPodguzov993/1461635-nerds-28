@@ -1,4 +1,4 @@
-body {
+/*body {
 min-width: 1180;
 margin: 0;
 padding: 0;
@@ -27,7 +27,7 @@ a {
 
 .logo {
 	padding-left: 140px;
-	padding-top: 49px;
+	padding-top: 73px;
 	width: 160px;
 	height: 66px; 
 }
@@ -48,7 +48,7 @@ text-transform: uppercase;
 }
 .slider {
 background-color: #EEEEEE;
-margin-top: 0
+
 }
 .slider-title {
 
@@ -107,6 +107,13 @@ list-style: none;
 
 .site-navigation {
 	list-style: none;
-	display: inline-flex;
-	
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
 }
+
+.cart{
+	margin-left: 1224px;
+
+}/*

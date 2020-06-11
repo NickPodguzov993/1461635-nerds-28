@@ -10,7 +10,7 @@
   <body>
     <header>
       <nav class="main-navigation">
-        <a href="index.html">
+        <a href="index.html" aria-label="Логотип Nerds">
           <img src="img/svg/nerds-logo.svg" width="160" height="66" class="logo" alt="Логотип Nerds">
         </a>
         <ul class="site-navigation">
@@ -20,7 +20,7 @@
           <li><a href="blank.html">Контакты</a></li>
         </ul>
         <div class="cart">
-          <a href="blank.html"><img src="img/svg/cart-icon.svg"> Корзина</a>
+          <a href="blank.html" aria-label="Корзина"><img src="img/svg/cart-icon.svg"> Корзина</a>
         </div>
       </nav>
     </header>
@@ -35,13 +35,12 @@
           </h2>
           Фильтр товаров
         </form>
-      </section>
-      <section>
+     
         
         <div>
-          <h2 class="catalog-sort">
+          <b class="catalog-sort">
           Сортировка
-          </h2>
+          </b>
         </div>
         <ul class="catalog-sort-list">
           <li>
@@ -55,8 +54,8 @@
           </li>
         </ul>
         <div>
-          <img src="img/sort-down" alt="">
-          <img src="img/sort-up" alt="">
+          <a href="#"></a>>
+          <a href="#"></a>>
         </div>
         <ul>
           <li>
@@ -148,38 +147,35 @@
       <div>
         <h3>NЁRDS DESIGN STUDIO</h3>
         <p>
-          191186, Санкт-Петербург,<br>
-          ул. Б. Конюшенная, д. 19/8  <br>
-          <br>
-          тел. +7 (812) 275-75-75
-        </p>
-        <a href="#">НАПИШИТЕ НАМ</a>
+            191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8<br> тел.<a href="tel:+7 (812) 275-75-75">+7 (812) 275-75-75</a> 
+          </p>
+        <a href="#">Напишите нам</a>
       </div>
     </main>
     <footer >
-      <ul class="social" >
-        <li >
-          <a href="blank.html">
-            <img src="img/svg/vk-icon.svg" >
-          </a>
-        </li>
-        <li>
-          <a href="blank.html">
-            <img src="img/svg/fb-icon.svg" >
-          </a>
-        </li>
-        <li>
-          <a href="blank.html">
-            <img src="img/svg/insta-icon.svg">
-          </a>
-        </li>
-      </ul>
-      <h2 class="footer-title">
-      Давайте дружить, это выгодно!
-      </h2>
-      <p>
-        Скидка 10% для друзей из социальных сетей.
-      </p>
-    </footer>
-  </body>
-</html>
+        <ul class="social" >
+          <li >
+            <a href="blank.html" aria-label="Вконтакте">
+              <img src="img/svg/vk-icon.svg">
+            </a>
+          </li>
+          <li>
+            <a href="blank.html" aria-label="Фэйсбук">
+              <img src="img/svg/fb-icon.svg" >
+            </a>
+          </li>
+          <li>
+            <a href="blank.html" aria-label="Инстаграм">
+              <img src="img/svg/insta-icon.svg">
+            </a>
+          </li>
+        </ul>
+        <h2 class="footer-title">
+        Давайте дружить, это выгодно!
+        </h2>
+        <p>
+          Скидка 10% для друзей из социальных сетей.
+        </p>
+      </footer>
+    </body>
+  </html>
