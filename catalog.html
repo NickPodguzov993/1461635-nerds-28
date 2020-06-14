@@ -34,10 +34,10 @@
           Стоимость:
           </h2>
         </form>
-        <form action="https://echo.htmlacademy.ru" method="get" class="filter">
+        <form action="https://echo.htmlacademy.ru" method="get" class="catalog-filter">
           <fieldset>
-            <legend>Сетка:</legend>
-            <ul>
+            <legend class="catalog-legend">Сетка:</legend>
+            <ul class="catalog-item">
               <li>
                 <input type="radio" name="grid" value="adaptive" id="filter-adaptive" checked>
                 <label for="filter-adaptive">Адаптивная</label>
@@ -53,8 +53,8 @@
             </ul>
           </fieldset>
           <fieldset>
-            <legend>Особенности:</legend>
-            <ul>
+            <legend class="catalog-legend">Особенности:</legend>
+            <ul class="catalog-item">
               <li>
                 <input type="checkbox" name="Слайдер" id="filter-slider" checked>
                 <label for="filter-slider">Слайдер</label>
@@ -87,7 +87,7 @@
         </div>
         <ul class="catalog-sort-list">
           <li>
-            <a href="#" class="catalog-price">По цене</a>
+            <a href="#" class="active-btn">По цене</a>
           </li>
           <li>
             <a href="#">По типу</a>
@@ -105,7 +105,7 @@
             <span></span>
             <img src="img/project-sedona.jpg" width="360" height="576" alt="Седона">
             <div>
-              <h3 class="product-title">
+              <h3>
               <a href="blank.html" class="product-title">Sedona</a>
               </h3>
               <p>Информационный сайт для туристов</p>
