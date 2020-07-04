@@ -10,7 +10,9 @@
   <body class="page-body">
     <header class="main-header">
       <nav class="main-navigation">
-        <a aria-label="Логотип Nerds">
+         <div class="main-navigation-wrapper">
+          <div class="container">
+        <a  aria-label="Логотип Nerds">
           <img src="img/svg/nerds-logo.svg" width="160" height="66" class="logo" alt="Логотип Nerds">
         </a>
         <ul class="site-navigation">
@@ -22,6 +24,8 @@
         <div class="cart">
           <a href="blank.html">Корзина</a>
         </div>
+      </div>
+    </div>
       </nav>
     </header>
     <main>
@@ -67,6 +71,8 @@
               </p>
               <a href="blank.html" class="services-btn">Заказать</a>
             </li>
+          
+          
             <li class="services-item">
               <img src="img/illustration-2.png" width="300" height="146" alt="картинка">
               <h3 class="services-title">Приложения</h3>
@@ -75,7 +81,8 @@
               </p>
               <a href="#" class="services-btn btn-green">Заказать</a>
             </li>
-            <li class="services-item">
+          
+           <li class="services-item">
               <img src="img/illustration-3.png" width="300" height="146" alt="картинка">
               <h3 class="services-title">Презентации</h3>
               <p>
@@ -83,18 +90,19 @@
               </p>
               <a href="#" class="services-btn btn-yellow">Заказать</a>
             </li>
+          
           </ul>
         </section>
-        <div>
+        <div class="advantages">
           <section class="about">
             <h2 class="about-title">
             Мы-маленкая, но гордая<br> дизайн студия из Краснодара.
             </h2>
             <p>
-              Исповедуем принципы минимализма и чистоты. Ставим математический расчет <br> превыше креатива. Работаем не покладая рук, как роботы.
+              Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br> превыше креатива. Работаем не покладая рук, как роботы.
             </p>
             <h3 class="about-subtitle">Выполняем заказы на разработку:</h3>
-            <ul>
+            <ul class="orders">
               <li>Веб-сайтов любой сложности</li>
               <li> Мобильных приложений для iOS и Android</li>
               <li>Слайдшоу и видео для корпоративных презентаций</li>
@@ -103,11 +111,11 @@
           <section class="facts">
             <img src="img/nerds-illustration4.png" width="360" height="208">
             <h3 class="facts-title">С 2004 года любим точность во всем:</h3>
-            <dl class=facts-virtues>
-              <dt class="facts-percent">146%</dt> <dd class="facts-discription">Уровень<br> самоотдачи</dd>
-              <dt class="facts-percent">100%</dt> <dd class="facts-discription">Соблюдение сроков</dd>
-              <dt class="facts-percent">50%</dt> <dd class="facts-discription">минимальная предоплата</dd>
-            </dl>
+            <ul class="facts-virtues">
+             <li class="fact-percent"> <b class="facts-percent">146<sup>%</sup></b> <p class="facts-discription">Уровень<br> самоотдачи</p></li>
+              <li class="fact-percent"><b class="facts-percent">100<sup>%</sup></b> <p class="facts-discription">Соблюдение сроков</p></li>
+             <li class="fact-percent"> <b class="facts-percent">50<sup>%</sup></b> <p class="facts-discription">минимальная предоплата</p></li>
+            </ul>
           </section>
         </div>
         <section>
@@ -141,7 +149,8 @@
           <a href="#">НАПИШИТЕ НАМ</a>
         </div>
       </main>
-      <footer >
+      <footer class="footer" >
+        <section>
         <ul class="social" >
           <li >
             <a href="blank.html" aria-label="Студия Nerds d Вконтакте">
@@ -159,12 +168,14 @@
             </a>
           </li>
         </ul>
-        <h2 class="footer-title">
+      </section>
+       <section> <h2 class="footer-title">
         Давайте дружить, это выгодно!
         </h2>
         <p>
           Скидка 10% для друзей из социальных сетей..
         </p>
+      </section>
       </footer>
        <section class="modal"> 
       <h2 class="modal-title">Напишите там</h2>
