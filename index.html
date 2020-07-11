@@ -9,9 +9,10 @@
   </head>
   <body class="page-body">
     <header class="main-header">
+      <div class="container">
       <nav class="main-navigation">
         
-        <div class="container logo">
+        
           <a  aria-label="Логотип Nerds">
             <img src="img/svg/nerds-logo.svg" width="160" height="66" class="logo" alt="Логотип Nerds">
           </a>
@@ -23,36 +24,36 @@
           </ul>
           <div class="cart">
             <a href="blank.html" class="cart-link">Корзина</a>
-          </div>
+          </div> </div>
        
         
-      </nav>
+     
     </header>
     <main>
       <h1 class="visually-hidden">Дизайн студия Nerds - разработка сайтов, приложений и презентаций.</h1>
       <section class="slider" >
         <ul class="slider-list container">
-          <li class="slider-item active">
+          <li class="slider-item slider-item-active slide-one">
             <b class="slider-title">
             Долго, дорого,<br> скрупулезно.
             </b>
             <p>
-              Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.
+              Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.
             </p>
             <a href="blank.html" class="slider-btn">Узнать больше</a>
           </li>
-          <li class="slider-item">
+          <li class="slider-item slide-two">
             <b class="slider-title">
-            Любим математику<br> как как никто другой
+            Любим математику<br>как как никто другой
             </b>
             <p>
               Никакого креатива, только математические формулы<br>для расчета идеальных пропорций
             </p>
             <a href="blank.html" class="slider-btn">Узнать больше</a>
           </li>
-          <li class="slider-item">
+          <li class="slider-item slide-three">
             <b class="slider-title">
-            Только ночь, только хардкор
+            Только ночь,<br>только хардкор
             </b>
             <p>
               Работать днем как все? Мы против этого.<br> Ближе к полуночи работа только начинается.
@@ -61,16 +62,16 @@
           </li>
         </ul>
         <div class="slider-controls">
-          <button type="button">Первый слайд</button>
-          <button type="button">Второй слайд</button>
-          <button type="button">Третий слайд</button>
+          <button class="current" type="button" aria-label="Первый слайд"></button>
+          <button type="button" aria-label="Второй слайд"></button>
+          <button type="button" aria-label="Третий слайд"></button>
         </div>
       </section>
       
-      <div class="">
+      <div class="container">
       <section class="services">
         <h2 class="visually-hidden">Наши услуги</h2>
-        <ul class="services-list container">
+        <ul class="services-list ">
           <li class="services-item">
             <img src="img/illustration-1.png" width="300" height="146" alt="Изображение ноутбука">
             <h3 class="services-title">Веб-сайты</h3>
@@ -101,7 +102,7 @@
           
         </ul>
       </section>
-      <div class="advantages container">
+      <div class="advantages ">
         <section class="about">
           <h2 class="about-title">
           Мы-маленкая, но гордая<br> дизайн студия из Краснодара.
@@ -127,16 +128,16 @@
         </section>
       </div>
       <section class="partners">
-        <ul class="partners-list container">
-          <li>
-            <a href="https://htmlacademy.ru/" aria-label="html-academy"><img src="img/html-academ.png" width="199" height="68">
+        <ul class="partners-list ">
+          <li class="partners-item">
+            <a href="https://htmlacademy.ru/" aria-label="html-academy"><img src="img/academy-black.png" width="199" height="68">
             </a>
           </li>
-          <li>
+          <li class="partners-item">
             <a href="#" aria-label="Барбершоп-Бородинский" ><img src="img/barbershop.png" width="209" height="90">
             </a>
           </li>
-          <li>
+          <li class="partners-item">
             <a href="#" aria-label="Пинк"><img src="img/pink.png" width="185" height="52">
             </a>
           </li>
@@ -145,7 +146,7 @@
             </a>
           </li>
         </ul>
-       <div class="contacts"> <div class="contacts-list">
+       <div class="contacts container"> <div class="contacts-list">
         <h3 class="contacts-title">NЁRDS DESIGN STUDIO</h3>
         <p>
           191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8<br><br> тел.<a href="tel:+7 (812) 275-75-75" aria-label="Телефон связи" class="contacts-tel">+7 (812) 275-75-75</a>
@@ -153,14 +154,14 @@
         <a href="#" class="contacts-btn">НАПИШИТЕ НАМ</a>
       </div></div>
       </section>
-
+      </div>
       <div class="map">
         <img src="img/map.png" width="100%" height="416" alt="карта">
       </div>
       
     </main>
     <footer class="footer container" >
-      <section>
+      
         <ul class="social" >
           <li class="social-vk footer-social">
             <a href="blank.html" aria-label="Студия Nerds d Вконтакте">  
@@ -175,14 +176,14 @@
             </a>
           </li>
         </ul>
-      </section>
-      <section> <h2 class="footer-title">
+      
+      <div> <h2 class="footer-title">
         Давайте дружить, это выгодно!
         </h2>
         <p>
           Скидка 10% для друзей из социальных сетей..
         </p>
-      </section>
+      </div>
     </footer>
     <section class="modal">
       <h2 class="modal-title">Напишите там</h2>
@@ -201,7 +202,7 @@
         </p>
         <button type="submit" class="modal-btn">Отправить</button>
       </form>
-      <button type="button" class="modal-close">Закрыть</button>
+      <button type="button" class="modal-close" aria-label="Закрыть"></button>
     </section>
   </body>
 </html>
