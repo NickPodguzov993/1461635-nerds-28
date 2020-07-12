@@ -745,7 +745,22 @@ position: fixed;
 .modal-name {
 	display: block;
 	margin-right: 40px;
+	width: 350px;
+	min-height: 50px;
 }
+
+.modal-mail {
+	width: 360px;
+	min-height: 50px;
+	display: block;
+}
+
+.modal-text {
+	width: 760px;
+	min-height: 118px;
+	padding-top: 0;
+	display: block;
+	}
 
 .modal-btn {
 	font: inherit;
@@ -818,21 +833,6 @@ position: fixed;
 	opacity: 1;
 }
 
-.modal-name {
-	width: 350px;
-	min-height: 50px;
-}
-
-.modal-mail {
-	width: 360px;
-	min-height: 50px;
-}
-
-.modal-text {
-	width: 760px;
-	min-height: 118px;
-	padding-top: 0;
-}
 
 .catalog-title {
 	font-size: 55px;
