@@ -11,23 +11,18 @@
     <header class="main-header">
       <div class="container">
         <nav class="main-navigation">
-          
-          
-          
           <a href="index.html" aria-label="Перейти на главную">
-            <img src="img/nerds-logo.svg" width="160" height="66" class="logo" alt="Логотип Nerds">
+            <img src="img/nerds-logo.svg" width="160" height="66" class="logo catalog-logo" alt="Логотип Nerds">
           </a>
           <ul class="site-navigation">
             <li><a href="blank.html">Студия</a></li>
             <li><a href="blank.html">Клиенты</a></li>
-            <li><a href="catalog.html" class="market">Магазин</a></li>
+            <li><a class="market">Магазин</a></li>
             <li><a href="blank.html">Контакты</a></li>
           </ul>
           <div class="cart">
             <a href="blank.html">Корзина</a>
           </div>
-          
-          
         </nav>
       </div>
     </header>
@@ -35,8 +30,6 @@
       <h1 class="catalog-title">
       Магaзин готовых шаблонов
       </h1>
-      
-      
       <div class="wrapper-content">
         <section class="filters">
           <form method="get" action="https://echo.htmlacademy.ru">
@@ -108,12 +101,10 @@
           </form>
         </section>
         <section class= "catalog-list">
-          <div class="sort">
-            
+          <div class="sort"> 
             <b class="catalog-sort">
             Сортировать:
             </b>
-            
             <ul class="catalog-sort-list">
               <li>
                 <a href="#" class="active-btn">По цене</a>
@@ -145,7 +136,6 @@
             </li>
             <li>
               <div class="catalog-template">
-                
                 <img src="img/project-pink.jpg" width="360" height="576" alt="Пинк">
                 <div class="catalog-popup">
                   <h3>
@@ -158,7 +148,6 @@
             </li>
             <li>
               <div class="catalog-template catalog-barber-mishka">
-                
                 <img src="img/project-barbershop.jpg" width="360" height="576" alt="Бородинский">
                 <div class="catalog-popup">
                   <h3 ><a href="blank.html" class="product-title">Barbershop</a></h3>
@@ -169,7 +158,6 @@
             </li>
             <li>
               <div class="catalog-template catalog-barber-mishka">
-                
                 <img src="img/project-mishka.jpg" width="360" height="576" alt="Мишка">
                 <div class="catalog-popup">
                   <h3 >
@@ -184,7 +172,6 @@
             </li>
             <li>
               <div class="catalog-template">
-                
                 <img src="img/project-school.jpg" width="360" height="576" alt="Школа">
                 <div class="catalog-popup">
                   <h3><a href="blank.html" class="product-title">A Plus</a></h3>
@@ -197,7 +184,6 @@
             </li>
             <li>
               <div class="catalog-template">
-                
                 <img src="img/project-kvast.jpg" width="360" height="576" alt="Квас">
                 <div class="catalog-popup">
                   <h3>
@@ -210,8 +196,6 @@
               </div>
             </li>
           </ul>
-          
-          
           <ul class="pagination-list">
             <li class="pagination-item pagination-item-current">
               <a class="pagination-link-current">1</a>
@@ -229,10 +213,10 @@
         </section>
       </div>
       <div class="map catalog-map">
-        <img src="img/map.png" width="100%" height="416" alt="карта">
+        <img src="img/map.png" width="1440" height="416" alt="карта">
       </div>
       <div class=" contacts-catalog"> <div class="contacts-list contacts-catalog-list">
-        <h3 class="contacts-title">NЁRDS DESIGN STUDIO</h3>
+        <h3 class="contacts-catalog-title">NЁRDS DESIGN STUDIO</h3>
         <p>
           191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8<br><br> тел.<a href="tel:+78122757575" aria-label="Телефон связи" class="contacts-tel">+7 (812) 275-75-75</a>
         </p>
@@ -240,7 +224,6 @@
       </div></div>
     </main>
     <footer class="footer container" >
-      
       <ul class="social" >
         <li class="social-vk footer-social">
           <a href="blank.html" aria-label="Студия Nerds d Вконтакте">
@@ -255,33 +238,32 @@
           </a>
         </li>
       </ul>
-      
       <div> <h2 class="footer-title">
-        Давайте дружить,это выгодно!
+        Давайте дружить, это выгодно!
         </h2>
-        <p>
+        <p class="footer-subtitle">
           Скидка 10% для друзей из социальных сетей..
         </p>
       </div>
     </footer>
     <section class="modal">
-      <h2 class="modal-title">Напишите там</h2>
+      <h2 class="modal-title">Напишите нам</h2>
       <form class="modal-form" action="https://echo.htmlacademy.ru" method="post">
         <p>
-          <label for="name" class=modal-label> Ваше имя:
+          <label for="name" class="modal-label-name"> Ваше имя:
             <input class="modal-name" id="name" type="text" name="name" placeholder="Имя фамилия"></label>
-        </p>
-        <p>
-          <label for="mail" class=modal-label>Ваш email:
-          <input class="modal-mail" id="mail" type="email" name="e-mail" placeholder="email@example.com"></label>
-        </p>
-        <p>
-          <label for="text" class=modal-label> Текст письма:
-          <input class="modal-text" id="text" type="text" name="text" placeholder="В свободной форме"></label>
-        </p>
-        <button type="submit" class="modal-btn">Отправить</button>
-      </form>
-      <button type="button" class="modal-close"></button>
-    </section>
-  </body>
-</html>
+          </p>
+          <p>
+            <label for="mail" class="modal-label">Ваш email:
+              <input class="modal-mail" id="mail" type="email" name="e-mail" placeholder="email@example.com"></label>
+            </p>
+            <p>
+              <label for="text" class="modal-label-text"> Текст письма:
+                <input class="modal-text" id="text" type="text" name="text" placeholder="В свободной форме"></label>
+              </p>
+              <button type="submit" class="modal-btn">Отправить</button>
+            </form>
+            <button type="button" class="modal-close"></button>
+          </section>
+        </body>
+      </html>
