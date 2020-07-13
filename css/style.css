@@ -550,7 +550,7 @@ input[type="radio"].visually-hidden {
 	width: 231px;
 	height: 190px;
 	background-image: url(../img/map-marker.png);
-	left: 680px;
+	left: 683px;
 	top: 33px;
 }
 
@@ -575,7 +575,7 @@ input[type="radio"].visually-hidden {
 	position: absolute;
 	display: block;
 	margin-top: 55px;
-	margin-left: 11px;
+	margin-left: 19px;
 	background-color: white;
 	width: 255px;
 	height: 305px;
@@ -586,7 +586,7 @@ input[type="radio"].visually-hidden {
 	position: absolute;
 	display: block;
 	bottom: 90px;
-	left: 10px;
+	left: 20px;
 	background-color: #ffffff;
 	width: 270px;
 	height: 308px;
