@@ -626,7 +626,7 @@ input[type="radio"].visually-hidden {
 	width: 231px;
 	height: 190px;
 	background-image: url(../img/map-marker.png);
-	left: 700px;
+	left: 702px;
 	bottom: 180px;
 }
 
@@ -665,7 +665,7 @@ input[type="radio"].visually-hidden {
 }
 
 .contacts-catalog-tel {
-	margin-top: 12px;
+	margin-top: 14px;
 	color: var(--color-phone);
 }
 
@@ -684,8 +684,14 @@ input[type="radio"].visually-hidden {
 	color: var(--color-phone);
 }
 
+.contacts-tel {
+	display: block;
+	margin-top: 19px;
+}
+
 .contacts-tel a{
 	color: var(--color-phone);
+
 }
 
 .contacts-btn {
@@ -694,13 +700,13 @@ input[type="radio"].visually-hidden {
 	display: block;
 	width: 200px;
 	text-align: center;
-	margin-top: 33px;
+	margin-top: 35px;
 	padding: 15px 10px;
 	border-radius: 3px;
 }
 
 .contacts-catalog-btn {
-	margin-top: 33px;
+	margin-top: 35px;
 }
 
 .contacts-btn:hover,
